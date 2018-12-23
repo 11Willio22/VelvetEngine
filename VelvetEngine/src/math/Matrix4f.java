@@ -331,4 +331,8 @@ public class Matrix4f
 		return result;
 	}
 	
+	public float[] getElements() {
+		return elements;	
+	}
+	
 }
