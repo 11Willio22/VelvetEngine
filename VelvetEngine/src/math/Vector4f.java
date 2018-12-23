@@ -14,6 +14,11 @@ public class Vector4f
 	public float z;
 	public float w;
 	
+	public Vector4f() 
+	{
+		super(0);
+	}
+	
 	public Vector4f(float fill)
 	{
 		this.x = fill;
